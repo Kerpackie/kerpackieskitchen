@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "kerpackieskitchen.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.kerpackieskitchen.refmap.json",
+  "mixins": [
+    "SandwichNameHelperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

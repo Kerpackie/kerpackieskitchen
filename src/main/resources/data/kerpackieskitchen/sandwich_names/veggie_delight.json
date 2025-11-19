@@ -1,0 +1,13 @@
+{
+    "ingredients": [
+        "some_assembly_required:bread_slice",
+        "some_assembly_required:bread_slice",
+        "some_assembly_required:tomato_slices",
+        "some_assembly_required:sliced_onion"
+    ],
+    "name": {
+        "text": "Veggie Delight",
+        "color": "green",
+        "italic": true
+    }
+}

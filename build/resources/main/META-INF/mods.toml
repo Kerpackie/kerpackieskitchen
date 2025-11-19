@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion="[46,)"
+license = "MIT"
+
+[[mods]]
+modId="kerpackieskitchen"
+version="1.0.0"
+displayName="Kerpackie's Kitchen"
+authors="Kerpackie"
+description='''Addon for Some Assembly Required to add custom sandwich names.'''
+
+[[dependencies.kerpackieskitchen]]
+    modId = "forge"
+    mandatory = true
+    versionRange="47.4.6"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.kerpackieskitchen]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20,1.21)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.kerpackieskitchen]]
+    modId = "some_assembly_required"
+    mandatory = true
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
